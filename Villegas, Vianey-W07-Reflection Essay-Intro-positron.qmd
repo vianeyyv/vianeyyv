@@ -1,0 +1,71 @@
+---
+title: "W07-Reflection Essay-Introduction to Positron"
+author: "Vianey Villegas"
+date: 'March 11, 2026'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Introduction
+
+Positron is a new coding platform that was created by Posit. It provides modern interfaces for coding.
+
+## prompt 1: Based on what you learned from Step 1 and Step 3, what do you like about Positron compared with RStudio?
+
+### **Response**:
+
+Compared to Rstudio, Positron is easier to navigate for me. It looks neater and less scarier than Rstudio. I like how Positron is modern, which makes it look neater.
+
+**Key Advantages**
+
+-   Cleaner
+
+-   Improved AI Integration
+
+-   Easier to Navigate
+
+-   Better AI Assistance
+
+## Prompt 2: Describe the various ways you can use AI inside Positron. Some are free while others are not. 
+
+### Response:
+
+Positron allows users to integrate AI tools into the coding flow, which makes it easier and faster for coding.
+
+**Ways AI can be used**
+
+AI can assist with:
+
+-   Writing code
+-   Debugging errors
+-   Explaining functions
+-   Generating documentation
+-   Suggesting improvements
+
+::: callout-tip
+AI tools can significantly speed up coding and help beginners understand programming concepts faster.
+:::
+
+AI Tools Positron offers (free and paid):
+
+-   GitHub Copilot
+-   OpenAI integrations
+-   Other AI coding assistants
+
+## Prompt 3: GitHub CoPilot Education
+
+## Response:
+
+Approved GitHub CoPilot **Screenshot:**
+
+![](images/Screenshot2026-03-11at7.54.27 PM.png)
+
+I think GitHub is helpful because it suggest codes automatically. It speeds up the process, but it also sometimes suggest the wrong codes. I do think it's helpfuk, but you have to pay attention to small details because not everything it suggest is requires.
