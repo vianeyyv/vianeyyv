@@ -1,0 +1,39 @@
+---
+title: "GA4 Certification Exam "
+author: "Vianey Villegas"
+date: 'March 13,2026'
+format: html
+---
+
+# GA4 Certification Reflection
+
+## Proof of Completion
+
+![](images/ga4-analytics-certificate.png)
+
+*Figure 1: Screenshot showing certification completion/attempt.*
+
+## 2 Exam Reflection
+
+## Summary:
+
+I complete the Google Analytic 4 Certification exam and got a score of 96/100.
+
+### Top 3 Most Challening Topics
+
+-   Data Sampling
+-   Raw Data Access
+-   Eveny Based Model
+
+### 2 Concpets I Wish I Could Redo
+
+-   **Event configuration and tracking:** Some questions focused on how events should be structured and configured in GA4. I would like another chance to apply my understanding of event parameters and how they influence reporting.\
+-   **Audience and segmentation tools:** A few questions involved identifying how audiences and segments can be used to analyze user behavior. I would like to revisit these questions because I realized I need more practice interpreting segmented data.
+
+### CEP Connection
+
+One thing I would change in CEP is to improve on CEP meaurment plan by ensuring that the key user is significant to my project.
+
+## ![](images/ga4-demo-report.png)GA4 Readiness Check
+
+The KPI I decided to look at is engagement rate. This screenshot show us how the users interact with the website. To be specific, I used the pages and screens report. 
