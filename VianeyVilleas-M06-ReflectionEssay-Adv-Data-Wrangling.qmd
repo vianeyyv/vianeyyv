@@ -1,0 +1,205 @@
+---
+title: "M06-Reflection Essay-Advanced Data Wrangling"
+author: "Vianey Villegas"
+date: 'March 15, 2026'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Introduction
+
+This will be a reflection report based on the concepts I learned in module 06.
+
+# Tidyverse Tricks Learned in Step 1
+
+Describe the two processes. What are the big differences between the two? How do the differences result in the differences in final sample size? 
+
+## New Skills Learned 
+
+- Advanced **dplyr** data manipulation
+- More complex **tidyr** data cleaning functions
+- Efficient ways to transform datasets
+
+:::callout-tip
+Tidyverse helps the user transform the data to make it look cleaner and readable.
+:::
+
+# David Robinson's Screencast
+
+What do you think about David Robinson's impromptu screencast performance in Step 2? 
+ 
+ David Robinson's Screencast showed advanced data wrangling that was fast. 
+
+## Why I was able to understand
+
+ - He is clear and experienced 
+ - He demonstrated a strong understanding when using tidyverse tools,
+
+:::callout-tip
+ Watching an experienced programmer will help learning how to code because they are more clear.
+:::
+
+# Initial Data Cleaning
+
+What's your impression of the Revealjs presentation? Describe its capabilities as you learned from the video. What are its strengths and weaknesses compared with PPT?
+
+ In Step 3, I saw **initial data cleaning** and **further data cleaning**.
+
+## Initial Data Cleaning
+
+ Initial data cleaning helps organize the dataset.
+
+ - Removes unnecessary columns
+ - Converts data types
+ - Handles missing values 
+
+## Further Data Cleaning
+Further data cleaning focuses on deeper transformations. 
+
+ - Filters observations 
+ - creates new variables 
+ - joins additional data 
+
+## Difference between the both
+
+ | Initial Cleaning | Further Cleaning |
+|------|------|
+| Basic formatting | Advanced transformation |
+| Removing errors | Adding new insights |
+| Preparing structure | Creating analysis-ready dataset |
+
+# Revealjs Presentation
+
+Briefly describe what the presentation is about. What did you learn from the experience of the Revealjs presentation? 
+
+Revealjs is a presentation framework in Quarto that lets users creat **interactive presentations using code**.
+
+## Capabilities 
+
+- Slide transformation
+- Embedded codes
+- Embedded outputs 
+- Quarto document integration 
+
+:::panel-tabset
+
+## Revealjs Strengths
+
+- Interactive slides
+- Easy integration with code
+- Works well for technical presentations
+
+## PPT Strengths
+
+- Familiar interface
+- Easier for non-technical users
+- More visual design tools
+
+:::
+
+# Advanced Wrangling Concepts 
+
+Pick three of them, describe when to use them, and give one coding example along with an output for each function. 
+
+In step 6, I learned about relational data operations (**joining datasets**).
+
+## 1. left_join()
+
+The `left_join()` function merges two datasets while keeping all rows from the first dataset.
+
+```{r}
+library(dplyr)
+
+data1 <- data.frame(id = c(1,2,3),
+                    name = c("A","B","C"))
+
+data2 <- data.frame(id = c(1,2,4),
+                    score = c(90,85,88))
+
+left_join(data1, data2, by="id")
+```
+
+### Output
+
+| id | name | score |
+|----|------|------|
+|1|A|90|
+|2|B|85|
+|3|C|NA|
+
+## 2. inner_join()
+
+The `inner_join()` function returns only rows that match in both datasets.
+
+```{r}
+inner_join(data1, data2, by="id")
+```
+
+### Output
+
+| id | name | score |
+|----|------|------|
+|1|A|90|
+|2|B|85|
+
+---
+
+## 3. mutate()
+
+The `mutate()` function creates new variables.
+
+```{r}
+df <- data.frame(score=c(70,85,90))
+df %>%
+  mutate(grade = ifelse(score >= 80, "Pass", "Fail"))
+```
+
+### Output
+
+| score | grade |
+|------|------|
+|70|Fail|
+|85|Pass|
+|90|Pass|
+
+---
+
+# Reflection on Data Wrangling 
+
+What did you like the most about working with the tools you learned in this module?
+
+## What I learned:
+
+I really liked working with **Tidyverse tools** because it really helps facilitate the reading od datasets.
+ 
+ Advantages: 
+
+- Clearing syntax
+- Consistent structure
+- Powerful transformation tools 
+
+# Challenges in Learning Data Wrangling 
+
+What seems to be the challenge, if any, for you when you try to master the wrangling tools? How may you be able to overcome the challenge?
+
+## Challenged
+
+- Remebering all the codes 
+- LEARNING 
+- Understanding how to relate the datasets 
+
+It takes practice to learn how to code, but watching experienced programmers and being consistent can help overcome these challenged. 
+
+# Conclusion
+
+Module 06 I think is one of the most important because when your learning coding it's important to also know how to make your work readable. This module helps it look cleaner. 
+
+
